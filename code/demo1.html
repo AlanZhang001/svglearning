@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" >
+        <meta name="format-detection" content="telephone=no"/>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <title>svg的展示</title>
+    </head>
+    <body>
+        <h3>1. iframe</h3>
+        <iframe src="svg/demo1.svg" style="height: 150px;border: none;"></iframe>
+
+        <h3>2. img标签</h3>
+        <img src="svg/demo1.svg"/>
+
+        <h3>3. background-image</h3>
+        <div style="background-image: url(svg/demo1.svg);background-size: 100px 100px; height: 100px;width: 100px;background-position: 0 0;background-color: red;"></div>
+
+        <h3>4. svg标签</h3>
+        <div>
+            <svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect x="0" y="0" height="100" width="100" style="stroke:#ff0000; fill: #0000ff"/>
+            </svg>
+        </div>
+    </body>
+</html>
