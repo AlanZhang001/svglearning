@@ -9,8 +9,13 @@
         <title>polyline</title>
     </head>
     <body>
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" style="background: orange;">
-             <polyline points="0,0 60,0 90,46 30,46" style="stroke: green;"/>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="500" height="500" style="background: orange;">
+            <g style="stroke: #0000ff; stroke-width: 4px; fill: #ff0000;"  transform="translate(10,10)">
+                <polyline points="0,0 60,0 90,46 30,46 0,0" style="stroke: green;"/>
+            </g>
+            <g style="stroke: #0000ff; stroke-width: 4px; fill: #ff0000;" transform="translate(10,150)">
+                <polygon points="50,5 100,5  125,30  125,80 100,105 50,105  25,80  25,30" style="stroke: green;fill:blue;stroke-width:5; " />
+            </g>
         </svg>
     </body>
 </html>
